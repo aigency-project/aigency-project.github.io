@@ -3,12 +3,25 @@ title:
 toc: false
 ---
 
+{{< hextra/hero-badge >}}
+  {{< icon name="cube-transparent" attributes="height=14" >}}
+  <span class="hx:font-semibold">Powered by A2A:</span>
+  <span>The Future of Automation</span>
+{{< /hextra/hero-badge >}}
+
+{{< hextra/hero-badge >}}
+  <div class="hx:w-2 hx:h-2 hx:rounded-full hx:bg-green-400 hx:animate-pulse"></div>
+  <span>Now in Public Beta! Join the revolution</span>
+  {{< icon name="arrow-circle-right" attributes="height=14" >}}
+{{< /hextra/hero-badge >}}
 
 {{< hextra/hero-badge >}}
   <div class="hx:w-2 hx:h-2 hx:rounded-full hx:bg-primary-400"></div>
   <span>Free, open source</span>
   {{< icon name="arrow-circle-right" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
+
+
 
 <div class="hx:mt-6 hx:mb-6">
 {{< hextra/hero-headline >}}
@@ -28,7 +41,11 @@ toc: false
 
 <div class="hx:mt-10"></div>
 
-In today's dynamic landscape, achieving true operational efficiency and innovation demands more than just AI – it requires orchestrated intelligence. AIGENCY introduces a groundbreaking **AI Agent Development Acceleration Kit**, meticulously engineered to automate complex processes through the intelligent coordination of multiple specialized AI agents. This isn't just automation; it's a revolution in how your business operates.
+In today's dynamic landscape, achieving true operational efficiency and innovation demands more than just AI – it requires orchestrated intelligence.
+
+AIGENCY introduces a groundbreaking **AI Agent Development Acceleration Kit**, meticulously engineered to automate complex processes through the intelligent coordination of multiple specialized AI agents.
+
+This isn't just automation; it's a revolution in how your business operates.
 
 <div class="hx:mb-10"></div>
 
@@ -76,6 +93,10 @@ Our cutting-edge framework is built upon the powerful **Agent-to-Agent (A2A) par
 Stop managing tasks, start orchestrating intelligence. Discover how AIGENCY can transform your business from the ground up, delivering a new generation of automated services that redefine efficiency and innovation.
 
 **Ready to revolutionize your operations?**
+
+```python
+pip install aigency
+```
 
 ---
 
