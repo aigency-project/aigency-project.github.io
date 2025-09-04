@@ -5,3 +5,7 @@ resources/
 
 # Editor
 .vscode/
+
+
+# MAC
+.DS_Store
