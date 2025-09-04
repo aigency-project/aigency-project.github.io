@@ -6,6 +6,8 @@ module:
   imports:
     - path: github.com/imfing/hextra
 
+enableInlineShortcodes: true
+
 markup:
   # allow raw html
   goldmark:
@@ -18,21 +20,24 @@ markup:
 
 menu:
   main:
-    - name: Docs
-      pageRef: /docs
-      weight: 1
     - name: About
       pageRef: /about
+      weight: 1
+    - name: Get Started
+      pageRef: /docs/get_started
       weight: 2
-    - name: Contact ↗
-      url: "https://github.com/aigency-project"
+    - name: Docs
+      pageRef: /docs
       weight: 3
-    - name: Search
+    - name: Contact
+      url: "https://github.com/aigency-project"
       weight: 4
+    - name: Search
+      weight: 5
       params:
         type: search
     - name: GitHub
-      weight: 5
+      weight: 6
       url: "https://github.com/aigency-project/aigency-lib"
       params:
         icon: github
@@ -60,5 +65,4 @@ params:
     displayPoweredBy: false
 
   editURL:
-    enable: true
-    base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
+    enable: false
