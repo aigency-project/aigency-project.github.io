@@ -1,7 +1,9 @@
 ---
-title: My Site
+title: Aigency
 toc: false
 ---
+
+# AIgency
 
 This is the landing page.
 
@@ -12,6 +14,6 @@ This is the landing page.
   {{< card link="about" title="About" icon="user" >}}
 {{< /cards >}}
 
-## Documentation
+## Github Repository
 
-For more information, visit [Hextra](https://imfing.github.io/hextra).
+For more information, visit [Aigency](https://github.com/aigency-project/aigency-lib).
