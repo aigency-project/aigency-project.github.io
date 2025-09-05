@@ -1,5 +1,5 @@
 ---
-title:
+title: Home
 toc: false
 layout: hextra-home
 ---
@@ -38,7 +38,7 @@ layout: hextra-home
 </div>
 
 <div class="hx:mb-6">
-{{< hextra/hero-button text="Get Started" link="/docs/get_started" >}}
+{{< hextra/hero-button text="Get Started" link="/get_started" >}}
 </div>
 
 <div class="hx:mb-10"></div>
