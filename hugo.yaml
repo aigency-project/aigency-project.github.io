@@ -24,7 +24,7 @@ menu:
       pageRef: /about
       weight: 1
     - name: Get Started
-      pageRef: /docs/get_started
+      pageRef: /get_started
       weight: 2
     - name: Docs
       pageRef: /docs

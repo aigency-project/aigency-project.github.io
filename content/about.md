@@ -1,5 +1,6 @@
 ---
 type: about
+next: /get_started/
 ---
 
 <div class="hx-mt-6 hx-mb-12">
@@ -42,9 +43,7 @@ AIGENCY introduces a groundbreaking **AI Agent Development Acceleration Kit**, m
 This cutting-edge framework is built upon the powerful **Agent-to-Agent (A2A) paradigm**. This means instead of siloed, individual AI tasks, you get a symphony of intelligent agents collaborating seamlessly to achieve your objectives. From intricate decision-making to complex data analysis, our A2A architecture empowers your business with unprecedented agility and precision.
 
 ### Key Benefits You Can't Afford to Miss
- TODO
-
-
+<image src="https://w7.pngwing.com/pngs/972/511/png-transparent-todo-sketch-note-list-tasks-thumbnail.png" alt="Diagram of the System">
 
 <div class="hx-mt-8">
     <a href="/docs/get_started" rel="noopener noreferrer">
