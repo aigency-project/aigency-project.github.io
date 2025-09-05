@@ -20,7 +20,7 @@ This guide will walk you through the installation and point you to a collection 
 Getting started is as simple as running a single command. Our library is hosted on PyPI, so you can install it directly using `pip`.
 
 ```bash copy
-pip install your-library-name
+pip install aigency
 ```
 
 > [!TIP]
