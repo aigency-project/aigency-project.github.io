@@ -35,18 +35,45 @@ next: /get_started/
 
 ### The AIGENCY Revolution
 
-In today's dynamic landscape, achieving true operational efficiency and innovation demands more than just AI – it requires **orchestrated intelligence**. 
+In today's dynamic landscape, achieving true operational efficiency and innovation demands more than isolated AI features — it requires orchestrated intelligence.
 
-AIGENCY introduces a groundbreaking **AI Agent Development Acceleration Kit**, meticulously engineered to automate complex processes through the intelligent coordination of multiple specialized AI agents. This isn't just automation; it's a revolution in how your business operates.
+AIGENCY provides an AI Agent Development Acceleration Kit purpose-built for coordinating multiple specialized agents through a production-ready Agent‑to‑Agent (A2A) runtime. Instead of siloed interactions, your agents collaborate, delegate, and integrate results to deliver outcomes with speed, clarity, and reliability.
 
-This cutting-edge framework is built upon the powerful **Agent-to-Agent (A2A) paradigm**. This means instead of siloed, individual AI tasks, you get a symphony of intelligent agents collaborating seamlessly to achieve your objectives. From intricate decision-making to complex data analysis, our A2A architecture empowers your business with unprecedented agility and precision.
+### What AIGENCY Includes
 
-### Key Benefits You Can't Afford to Miss
-<image src="https://w7.pngwing.com/pngs/972/511/png-transparent-todo-sketch-note-list-tasks-thumbnail.png" alt="Diagram of the System">
+- **Agent‑to‑Agent Runtime (A2A)**
+  A robust execution layer where agents can hand off tasks, share context, and compose workflows.
+
+- **Model Context Protocol (MCP) Services**
+  Clean, modular tool surfaces for persistent data, domain operations, and specialized capabilities.
+
+- **Observability Built‑in**
+  Phoenix dashboards and the A2A Inspector give you real‑time visibility into agent behavior, tasks, and traces.
+
+- **Developer Experience**
+  Simple Docker‑based demos, clear configs, and a modular structure for extending skills, tools, and personalities.
+
+### Explore the Demos
+
+- **The Lone Aigent (Reception Agent)**
+  A lightweight, no‑MCP front‑desk assistant that greets, clarifies, and routes users to the right specialist. See: `/get_started/demos/lone_aigent`
+
+- **The Gossip Aigent**
+  An entertaining conversational agent that can generate topics and playful stories using MCP tools. See: `/get_started/demos/gossip_agent`
+
+- **Detective Aigency**
+  A multi‑agent system with specialized roles (Case, Informant, Detective Manager) coordinated via A2A and MCP services. See: `/get_started/demos/detective_aigency`
+
+### Why AIGENCY
+
+- **Modular & Extensible**: Add skills, tools, and agents without rewrites
+- **Production‑Ready Monitoring**: Trace behavior and performance easily
+- **Language‑Adaptive**: Agents can respond in the user’s language
+- **Team‑of‑Agents by Design**: Delegate, coordinate, and integrate
 
 <div class="hx-mt-8">
     <a href="/docs/get_started" rel="noopener noreferrer">
-        <span class="hx-mt-8">Ready to revolutionize your operations? Get started now!</span>
+        <span class="hx-mt-8">Ready to build with orchestrated intelligence? Get started now</span>
         {{< icon name="arrow-circle-right" attributes="height=14" >}}
     </a>
 </div>
