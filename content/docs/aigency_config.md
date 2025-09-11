@@ -8,13 +8,13 @@ This resource defines the root configuration for an Aigency agent. It structures
 ## Syntax
 To declare this resource in a Hextra template, use the following syntax:
 ```yaml
-metadata: [Metadata](http://www.google.es)
+metadata: [Metadata](/<path to metadata>)
 
-service:
+service: [Service](/<path to service>)
 
-agent:
+agent: [Agent](/<path to agent>)
 
-observability:
+observability: [Observability](/<path to observability>)
 
 ```
 ## Properties
