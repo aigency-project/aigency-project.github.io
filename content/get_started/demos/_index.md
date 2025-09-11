@@ -3,7 +3,7 @@ title: Demo Examples
 type: docs
 sidebar:
   open: true
-next: /get_started/demos/lone_aigent
+next: /get_started/demos/reception_aigent
 prev: /get_started
 ---
 
@@ -15,8 +15,8 @@ Our simple examples are the perfect starting point. You'll learn how to set up a
 {{< cards >}}
 
     {{< card 
-        link="/get_started/demos/lone_aigent/" 
-        title="The Lone Aigent" 
+        link="/get_started/demos/reception_aigent/" 
+        title="Reception Aigent" 
         subtitle="Start with a Single Agent"
         icon="sparkles" >}}   
 

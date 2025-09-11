@@ -3,7 +3,7 @@ title: The Gossip Aigent
 type: docs
 weight: 2
 next: /get_started/demos/detective_aigency
-prev: /get_started/demos
+prev: /get_started/demos/reception_aigent
 ---
 
 This example demonstrates a friendly and entertaining conversational agent built with the Aigency framework. The Gossip Agent is designed to share interesting stories, rumors, and engage in entertaining, multilingual conversations.
@@ -92,7 +92,7 @@ git clone https://github.com/aigency-project/demo-gossip-agent
 ```
 
 ### Configure your environment variables in a .env file in the project root:
-Visit Google AI Studio to generate your Gemini API key, since this agent uses the gemini-2.0-flash model.
+Visit [Google AI Studio](https://aistudio.google.com/app/apikey) to generate your Gemini API key, since this agent uses the gemini-2.0-flash model.
 
 ```bash title=".env"
 GEMINI_API_KEY=your_gemini_api_key

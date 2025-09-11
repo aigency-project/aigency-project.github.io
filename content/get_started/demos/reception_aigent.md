@@ -1,5 +1,5 @@
 ---
-title: The Lone Aigent
+title: Reception Aigent
 type: docs
 sidebar:
   open: true
@@ -8,10 +8,10 @@ next: /get_started/demos/gossip_agent
 prev: /get_started/demos
 ---
 
-This example demonstrates a simple, polite receptionist agent built with the Aigency framework. The Lone Aigent acts as a front-desk assistant: it greets users, asks brief clarifying questions, and conceptually routes them to the appropriate specialist in a detective agency. This agent runs without MCP services to remain lightweight and fast to deploy.
+This example demonstrates a simple, polite receptionist agent built with the Aigency framework. The Reception Aigent acts as a front-desk assistant: it greets users, asks brief clarifying questions, and conceptually routes them to the appropriate specialist in a detective agency. This agent runs without MCP services to remain lightweight and fast to deploy.
 
 ## Use Cases
-The Lone Aigent is ideal for intake, triage, and routing.
+The Reception Aigent is ideal for intake, triage, and routing.
 
 {{< tabs items="Greeting & Triage, Clarifying Question, Provide Next Steps" >}}
   {{< tab >}}
@@ -22,7 +22,8 @@ The Lone Aigent is ideal for intake, triage, and routing.
     "Hello! I need help with a case involving stolen documents."
     ```
     **Agent's Likely Response:**
-    "Welcome! I’m here to help. To route you properly, do you already have evidence (e.g., documents, fingerprints, video)? If yes, the Case Agent is best. If the situation spans multiple teams, the Detective Manager can coordinate a broader investigation. Next steps: 1) Share key evidence, 2) Provide timeline, 3) Identify known witnesses."
+    "Welcome! I’m here to help. To route you properly, do you already have evidence (e.g., documents, fingerprints, video)? If yes, the Case Agent is best. 
+    If the situation spans multiple teams, the Detective Manager can coordinate a broader investigation. Next steps: 1) Share key evidence, 2) Provide timeline, 3) Identify known witnesses."
   {{< /tab >}}
   {{< tab >}}
     ### Clarifying Question
@@ -52,7 +53,7 @@ The Lone Aigent is ideal for intake, triage, and routing.
 
 A single core agent with no MCP (Model Context Protocol) services.
 
-### The Lone Aigent (Reception Agent)
+### Reception Aigent
 This agent serves as the front desk, ensuring users are welcomed and routed efficiently.
 
 **Key Responsibilities:**
@@ -93,7 +94,7 @@ git clone https://github.com/aigency-project/demo-reception-agent
 ```
 
 ### Configure your environment variables in a .env file in the project root:
-This agent uses the gemini-2.0-flash model.
+Visit [Google AI Studio](https://aistudio.google.com/app/apikey) to generate your Gemini API key, since this agent uses the gemini-2.0-flash model.
 
 ```bash title=".env"
 GEMINI_API_KEY=your_gemini_api_key

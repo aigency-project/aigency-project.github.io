@@ -146,11 +146,11 @@ Follow the instructions for your operating system to install [Docker](https://do
 ### Download the Repository
 
 ```bash title=".env"
-    git clone https://github.com/aigency-project/detective-aigency
+    git clone https://github.com/aigency-project/demo-detective-aigency
 ```
 ### Configure your environment variables in a `.env` file in the project root
 
-Visit [Google AI Studio](https://aistudio.google.com/app/apikey) to generate your Gemini API key.
+Visit [Google AI Studio](https://aistudio.google.com/app/apikey) to generate your Gemini API key, since this agent uses the gemini-2.0-flash model.
 
 ```bash title=".env"
     GEMINI_API_KEY=your_gemini_api_key
