@@ -1,10 +1,12 @@
 ---
 title: Aigency::Agent::RemoteAgent
+linkTitle: RemoteAgent
+weight: 4
+prev: docs/aigency/agent
+type: docs
 ---
 
 This resource defines configuration for connecting to remote agents in the A2A protocol.
-
-Source: `aigency-lib/aigency/schemas/agent/remote_agent.py`
 
 ## Syntax
 ```yaml

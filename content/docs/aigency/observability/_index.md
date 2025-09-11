@@ -1,20 +1,23 @@
 ---
 title: Aigency::Observability
+linkTitle: Observability
+type: docs
+prev: /docs/aigency
+next: /docs/aigency/observability/monitoring/
+weight: 4
 ---
 
 This resource groups all observability configurations for the agent.
 
-Source: `aigency-lib/aigency/schemas/observability/observability.py`
-
 ## Syntax
 ```yaml
-monitoring: [Monitoring](/docs/monitoring/)
+monitoring: [Monitoring]
 ```
 
 ## Properties
 - **monitoring**
   - Description: Monitoring tools configuration.
-  - Type: [Monitoring](/docs/monitoring/)
+  - Type: [Monitoring](/docs/aigency/observability/monitoring/)
   - Required: True
 
 ## Example

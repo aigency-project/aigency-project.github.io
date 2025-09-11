@@ -1,16 +1,19 @@
 ---
 title: Aigency::Service
+linkTitle: Service
+type: docs
+prev: /docs/aigency
+next: docs/aigency/service/interface/
+weight: 2
 ---
 
 This resource defines the network and communication configuration of an Aigency agent service.
 
-Source: `aigency-lib/aigency/schemas/service/service.py`
-
 ## Syntax
 ```yaml
 url: <string>
-interface: [Interface](/docs/interface/)
-capabilities: [Capabilities](/docs/capabilities/)
+interface: [Interface]
+capabilities: [Capabilities]
 ```
 
 ## Properties
@@ -21,12 +24,12 @@ capabilities: [Capabilities](/docs/capabilities/)
 
 - **interface**
   - Description: Communication interface configuration.
-  - Type: [Interface](/docs/interface/)
+  - Type: [Interface](/docs/aigency/service/interface/)
   - Required: True
 
 - **capabilities**
   - Description: Technical capabilities of the service.
-  - Type: [Capabilities](/docs/capabilities/)
+  - Type: [Capabilities](/docs/aigency/service/capabilities/)
   - Required: True
 
 ## Example

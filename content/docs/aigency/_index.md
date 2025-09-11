@@ -1,20 +1,27 @@
 ---
-title: Aigency::Agent::Config
-next: first-page
+title: Aigency
+type: docs
+next: docs/aigency/metadata
+weight: 1
+cascade:
+    type: docs
+    sidebar:
+        open: true
 ---
+
 
 This resource defines the root configuration for an Aigency agent. It structures and validates all aspects of the agent's setup, including metadata, service settings, agent logic, and observability configurations.
 
 ## Syntax
 To declare this resource in a Hextra template, use the following syntax:
 ```yaml
-metadata: [Metadata](/docs/metadata/)
+metadata: [Metadata]
 
-service: [Service](/docs/service/)
+service: [Service]
 
-agent: [Agent](/docs/agent/)
+agent: [Agent]
 
-observability: [Observability](/docs/observability/)
+observability: [Observability]
 
 ```
 ## Properties

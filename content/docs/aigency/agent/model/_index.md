@@ -1,15 +1,18 @@
 ---
-title: Aigency::Agent::Model
+title: Aigency::Config::Agent::AgentModel
+linkTitle: AgentModel
+type: docs
+weight: 1
+prev: docs/aigency/agent/
+next: docs/aigency/agent/model/provider/
 ---
 
 This resource defines the configuration for the AI model used by an agent.
 
-Source: `aigency-lib/aigency/schemas/agent/model.py`
-
 ## Syntax
 ```yaml
 name: <string>
-provider: [ProviderConfig](/docs/provider_config/)
+provider: [ProviderConfig]
 ```
 
 ## Properties
@@ -20,7 +23,7 @@ provider: [ProviderConfig](/docs/provider_config/)
 
 - **provider**
   - Description: Provider configuration details.
-  - Type: [ProviderConfig](/docs/provider_config/)
+  - Type: [ProviderConfig](/docs/aigency/agent/model/provider/)
   - Required: False
 
 ## Example

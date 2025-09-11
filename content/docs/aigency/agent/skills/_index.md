@@ -1,10 +1,12 @@
 ---
 title: Aigency::Agent::Skill
+linkTitle: Skill
+type: docs
+weight: 2
+prev: docs/aigency/agent/
 ---
 
 This resource defines a specific skill or capability of an agent.
-
-Source: `aigency-lib/aigency/schemas/agent/skills.py`
 
 ## Syntax
 ```yaml

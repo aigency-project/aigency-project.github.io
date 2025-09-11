@@ -1,20 +1,21 @@
 ---
 title: Aigency::Observability::Monitoring
+linkTitle: Monitoring
+type: docs
+prev: /docs/aigency/observability
 ---
 
 This resource defines monitoring tool configuration groupings.
 
-Source: `aigency-lib/aigency/schemas/observability/observability.py`
-
 ## Syntax
 ```yaml
-phoenix: [Phoenix](/docs/phoenix/)
+phoenix: [Phoenix]
 ```
 
 ## Properties
 - **phoenix**
   - Description: Phoenix monitoring configuration.
-  - Type: [Phoenix](/docs/phoenix/)
+  - Type: [Phoenix](/docs/aigency/observability/monitoring/phoenix/)
   - Required: True
 
 ## Example

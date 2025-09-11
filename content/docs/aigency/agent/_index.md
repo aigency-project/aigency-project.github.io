@@ -1,32 +1,33 @@
 ---
-title: Aigency::Agent
+title: Aigency:::Agent
+linkTitle: Agent
+type: docs
+weight: 3
 ---
 
 This resource defines the agent's core logic, model, instruction, skills, tools, and connections to remote agents.
 
-Source: `aigency-lib/aigency/schemas/agent/agent.py`
-
 ## Syntax
 ```yaml
-model: [AgentModel](/docs/agent_model/)
+model: [AgentModel]
 instruction: <string>
 skills:
-  - [Skill](/docs/skill/)
+  - [Skill]
   - ...
 
 # Optional
 tools:
-  - [Tool](/docs/tools/)
+  - [Tool]
   - ...
 remote_agents:
-  - [RemoteAgent](/docs/remote_agent/)
+  - [RemoteAgent]
   - ...
 ```
 
 ## Properties
 - **model**
   - Description: Configuration for the AI model to use.
-  - Type: [AgentModel](/docs/agent_model/)
+  - Type: [AgentModel](/docs/aigency/agent/agent_model/)
   - Required: True
 
 - **instruction**

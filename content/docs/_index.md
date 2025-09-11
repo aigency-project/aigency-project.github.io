@@ -1,20 +1,10 @@
 ---
-title: Documentation
-next: first-page
+title: Docs
+type: docs
+next: docs/aigency
+weight: 1
 ---
 
+home docs
 
-
-This is a demo of the theme's documentation layout.
-
-## Hello, World!
-
-```go {filename="main.go"}
-package main
-
-import "fmt"
-
-func main() {
-    fmt.Println("Hello, World!")
-}
-```
+TODO

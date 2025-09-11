@@ -1,10 +1,12 @@
 ---
 title: Aigency::Metadata
+linkTitle: Metadata
+type: docs
+prev: /docs/aigency
+weight: 1
 ---
 
 This resource defines descriptive metadata for an Aigency agent, used for discovery, categorization, and documentation.
-
-Source: `aigency-lib/aigency/schemas/metadata/metadata.py`
 
 ## Syntax
 ```yaml

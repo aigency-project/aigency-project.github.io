@@ -1,10 +1,11 @@
 ---
 title: Aigency::Observability::Phoenix
+linkTitle: Phoenix
+type: docs
+prev: /docs/aigency/observability/monitoring
 ---
 
 This resource defines configuration for the Phoenix monitoring system.
-
-Source: `aigency-lib/aigency/schemas/observability/phoenix.py`
 
 ## Syntax
 ```yaml

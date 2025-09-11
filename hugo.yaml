@@ -29,16 +29,16 @@ menu:
     - name: Docs
       pageRef: /docs
       weight: 3
-    - name: Contact
-      url: "https://github.com/aigency-project"
-      weight: 4
+    #- name: Contact
+    #  url: "https://github.com/aigency-project"
+    #  weight: 4
     - name: Search
       weight: 5
       params:
         type: search
     - name: GitHub
       weight: 6
-      url: "https://github.com/aigency-project/aigency-lib"
+      url: "https://github.com/aigency-project"
       params:
         icon: github
 #    - name: Twitter
