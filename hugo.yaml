@@ -27,7 +27,7 @@ menu:
       pageRef: /get_started
       weight: 2
     - name: Docs
-      pageRef: /docs
+      pageRef: /docs/aigency
       weight: 3
     #- name: Contact
     #  url: "https://github.com/aigency-project"

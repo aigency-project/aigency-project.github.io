@@ -9,7 +9,9 @@ This resource defines tool configuration models for agent capabilities, includin
 
 ### Syntax
 ```yaml
-[FunctionTool] | [McpTool]
+tools:
+  - [FunctionTool] | [McpTool]
+  - ...
 ```
 
 ### Properties
