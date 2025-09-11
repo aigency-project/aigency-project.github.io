@@ -88,7 +88,7 @@ Follow the instructions for your operating system to install [Docker](https://do
 ### Download the Repository
 
 ```bash
-git clone https://github.com/aigency-project/gossip-agent
+git clone https://github.com/aigency-project/demo-gossip-agent
 ```
 
 ### Configure your environment variables in a .env file in the project root:
