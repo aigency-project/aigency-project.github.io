@@ -29,22 +29,22 @@ The properties section of the Hextra::Agent::Config resource accepts the followi
 
 ### metadata
 - **Description:** Descriptive information about the agent.
-- **Type:** [Metadata](/docs/metadata/).
+- **Type:** [Metadata](/docs/aigency/metadata/).
 - **Required values:** True
 
 ### service
 - **Description:** Network and communication configuration for the agent. 
-- **Type:** [Service](/docs/service/).
+- **Type:** [Service](/docs/aigency/service/).
 - **Required:** True
 
 ### agent
 - **Description:** The core agent logic, model, and capabilities.
-- **Type:** [Agent](/docs/agent/).
+- **Type:** [Agent](/docs/aigency/agent/).
 - **Required:** True
 
 ### observability
 - **Description:** Settings for monitoring and observability of the agent.
-- **Type:** [Observability](/docs/observability/).
+- **Type:** [Observability](/docs/aigency/observability/).
 - **Required:** False
 
 ## Example
