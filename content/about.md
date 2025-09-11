@@ -53,23 +53,14 @@ AIGENCY provides an AI Agent Development Acceleration Kit purpose-built for coor
 - **Developer Experience**
   Simple Docker‑based demos, clear configs, and a modular structure for extending skills, tools, and personalities.
 
-### Explore the Demos
-
-- **The Lone Aigent (Reception Agent)**
-  A lightweight, no‑MCP front‑desk assistant that greets, clarifies, and routes users to the right specialist. See: `/get_started/demos/lone_aigent`
-
-- **The Gossip Aigent**
-  An entertaining conversational agent that can generate topics and playful stories using MCP tools. See: `/get_started/demos/gossip_agent`
-
-- **Detective Aigency**
-  A multi‑agent system with specialized roles (Case, Informant, Detective Manager) coordinated via A2A and MCP services. See: `/get_started/demos/detective_aigency`
-
 ### Why AIGENCY
 
 - **Modular & Extensible**: Add skills, tools, and agents without rewrites
 - **Production‑Ready Monitoring**: Trace behavior and performance easily
 - **Language‑Adaptive**: Agents can respond in the user’s language
 - **Team‑of‑Agents by Design**: Delegate, coordinate, and integrate
+
+---
 
 <div class="hx-mt-8">
     <a href="/docs/get_started" rel="noopener noreferrer">

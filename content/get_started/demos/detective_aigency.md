@@ -129,7 +129,7 @@ The agency operates with three core agents, each with a distinct role, and two s
 
 {{< /tabs >}}
 
-### Diagramof the System
+### Diagram of the System
 <image src="/images/detective_aigency_diagram.png" alt="Diagram of the System">
 
 ---
