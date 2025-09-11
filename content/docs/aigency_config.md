@@ -8,13 +8,13 @@ This resource defines the root configuration for an Aigency agent. It structures
 ## Syntax
 To declare this resource in a Hextra template, use the following syntax:
 ```yaml
-metadata: [Metadata](/<path to metadata>)
+metadata: [Metadata](/docs/metadata/)
 
-service: [Service](/<path to service>)
+service: [Service](/docs/service/)
 
-agent: [Agent](/<path to agent>)
+agent: [Agent](/docs/agent/)
 
-observability: [Observability](/<path to observability>)
+observability: [Observability](/docs/observability/)
 
 ```
 ## Properties
@@ -22,22 +22,22 @@ The properties section of the Hextra::Agent::Config resource accepts the followi
 
 ### metadata
 - **Description:** Descriptive information about the agent.
-- **Type:** [Metadata]().
+- **Type:** [Metadata](/docs/metadata/).
 - **Required values:** True
 
 ### service
 - **Description:** Network and communication configuration for the agent. 
-- **Type:** [Service]().
+- **Type:** [Service](/docs/service/).
 - **Required:** True
 
 ### agent
 - **Description:** The core agent logic, model, and capabilities.
-- **Type:** [Agent]().
+- **Type:** [Agent](/docs/agent/).
 - **Required:** True
 
 ### observability
 - **Description:** Settings for monitoring and observability of the agent.
-- **Type:** [Observability]().
+- **Type:** [Observability](/docs/observability/).
 - **Required:** False
 
 ## Example
@@ -150,4 +150,3 @@ observability:
     phoenix:
       host: phoenix
       port: 6006
-```
