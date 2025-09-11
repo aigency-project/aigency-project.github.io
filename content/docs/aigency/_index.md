@@ -9,7 +9,6 @@ cascade:
         open: true
 ---
 
-
 This resource defines the root configuration for an Aigency agent. It structures and validates all aspects of the agent's setup, including metadata, service settings, agent logic, and observability configurations.
 
 ## Syntax

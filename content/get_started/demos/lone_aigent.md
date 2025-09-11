@@ -4,7 +4,7 @@ type: docs
 sidebar:
   open: true
 weight: 1
-next: /get_started/demos/detective_aigency
+next: /get_started/demos/gossip_agent
 prev: /get_started/demos
 ---
 

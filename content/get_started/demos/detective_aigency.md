@@ -1,7 +1,9 @@
 ---
 title: The Detective Aigency
 type: docs
-weight: 2
+weight: 3
+next: /docs/aigency
+prev: /get_started/demos
 ---
 
 This example demonstrates a multi-agent system for a detective agency built with the Aigency framework. The system is composed of three specialized agents that work in coordination to solve complex cases.
@@ -128,7 +130,7 @@ The agency operates with three core agents, each with a distinct role, and two s
 {{< /tabs >}}
 
 ### Diagramof the System
-<image src="https://w7.pngwing.com/pngs/972/511/png-transparent-todo-sketch-note-list-tasks-thumbnail.png" alt="Diagram of the System">
+<image src="/images/detective_aigency_diagram.png" alt="Diagram of the System">
 
 ---
 ## How to Run
@@ -146,7 +148,7 @@ Follow the instructions for your operating system to install [Docker](https://do
 ```bash title=".env"
     git clone https://github.com/aigency-project/detective-aigency
 ```
-### Configure your environment variables in a `.env` file in the project root:
+### Configure your environment variables in a `.env` file in the project root
 
 Visit [Google AI Studio](https://aistudio.google.com/app/apikey) to generate your Gemini API key.
 
@@ -171,7 +173,7 @@ Once running, the services are available at these ports:
 - **`Case Agent`:** [http://localhost:8082](http://localhost:8082)
 - **`Informant Agent`:** [http://localhost:8084](http://localhost:8084)
 - **`Phoenix Observability`:** [http://localhost:6006](http://localhost:6006)
-- **`A2A Inspector`:** [http://localhost:6007](http://localhost:6006)
+- **`A2A Inspector`:** [http://localhost:6007](http://localhost:6007)
 
 ## Monitoring and Observability
 - **Phoenix:** An observability dashboard is available at http://localhost:6006.
