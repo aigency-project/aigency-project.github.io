@@ -1,5 +1,5 @@
 ---
-title: The Gossip Aigent
+title: Gossip Aigent
 type: docs
 weight: 2
 next: /get_started/demos/detective_aigency
@@ -91,7 +91,7 @@ Follow the instructions for your operating system to install [Docker](https://do
 git clone https://github.com/aigency-project/demo-gossip-agent
 ```
 
-### Configure your environment variables in a .env file in the project root:
+### Configure your environment variables in a .env file in the project root
 Visit [Google AI Studio](https://aistudio.google.com/app/apikey) to generate your Gemini API key, since this agent uses the gemini-2.0-flash model.
 
 ```bash title=".env"

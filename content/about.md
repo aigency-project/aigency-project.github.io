@@ -63,7 +63,7 @@ AIGENCY provides an AI Agent Development Acceleration Kit purpose-built for coor
 ---
 
 <div class="hx-mt-8">
-    <a href="/docs/get_started" rel="noopener noreferrer">
+    <a href="/get_started" rel="noopener noreferrer">
         <span class="hx-mt-8">Ready to build with orchestrated intelligence? Get started now</span>
         {{< icon name="arrow-circle-right" attributes="height=14" >}}
     </a>

@@ -1,5 +1,5 @@
 ---
-title: The Detective Aigency
+title: Detective Aigency
 type: docs
 weight: 3
 next: /docs/aigency
