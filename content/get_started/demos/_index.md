@@ -16,9 +16,22 @@ Our simple examples are the perfect starting point. You'll learn how to set up a
 
     {{< card 
         link="/get_started/demos/lone_aigent/" 
-        title="Level 1: The Lone Aigent" 
-        subtitle="Start with the Basics"
+        title="The Lone Aigent" 
+        subtitle="Start with a Single Agent"
         icon="sparkles" >}}   
+
+{{< /cards >}}
+
+### Intermedium 
+In this section, you'll see an agent with different tools and skills to perform more specific tasks. We'll also explore how it interacts with a Model Context Protocol (MCP) Server to gain new abilities and access external information.
+
+{{< cards >}}
+
+    {{< card
+    link="/get_started/demos/gossip_agent/"
+    title="The Gossip Aigent"
+    subtitle="Single Agent using an MCP Server"
+    icon="star" >}}
 
 {{< /cards >}}
 
@@ -28,9 +41,9 @@ Ready for more? Dive into our advanced examples where multiple AI agents collabo
 {{< cards >}}
 
     {{< card
-    link="get_started/demos/detective_aigency/"
-    title="Level 2: The Multi-Aigent Symphony"
-    subtitle="Advanced Interactions at a Detective Aigency"
-    icon="star" >}}
+    link="/get_started/demos/detective_aigency/"
+    title="The Multi-Aigent Aigency"
+    subtitle="Agent and MCP network"
+    icon="sun" >}}
 
 {{< /cards >}}

@@ -10,18 +10,6 @@ layout: hextra-home
   <span class="hx:font-semibold">Powered by A2A:</span>
   <span>The Future of Automation</span>
 {{< /hextra/hero-badge >}}
-
-{{< hextra/hero-badge >}}
-  <div class="hx:w-2 hx:h-2 hx:rounded-full hx:bg-green-400 hx:animate-pulse"></div>
-  <span>Now in Public Beta! Join the revolution</span>
-  {{< icon name="arrow-circle-right" attributes="height=14" >}}
-{{< /hextra/hero-badge >}}
-
-{{< hextra/hero-badge >}}
-  <div class="hx:w-2 hx:h-2 hx:rounded-full hx:bg-primary-400"></div>
-  <span>Free, open source</span>
-  {{< icon name="arrow-circle-right" attributes="height=14" >}}
-{{< /hextra/hero-badge >}}
 </div>
 
 

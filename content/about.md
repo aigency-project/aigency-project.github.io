@@ -1,11 +1,12 @@
 ---
 type: about
+toc: false
 next: /get_started/
 ---
 
 <div class="hx-mt-6 hx-mb-12">
   <div class="hx-text-center">
-    <h1 class="hx-text-4xl hx-font-bold">AIGENCY: The Strategic Foundation for Intelligent Automation.</h1>
+    <h1 class="hx-text-4xl hx-font-bold">AIGENCY</br> The Strategic Foundation for Intelligent Automation.</h1>
     <p class="hx-mt-4 hx-text-lg hx-text-gray-500 dark:hx-text-gray-400">
       Stop managing tasks, start orchestrating intelligence. Discover how AIGENCY can transform your business from the ground up.
     </p>
@@ -13,18 +14,16 @@ next: /get_started/
 </div>
 
 <style>
-  /* Por defecto, la imagen para modo oscuro está oculta */
   .logo-dark-mode {
     display: none;
   }
 
-  /* Cuando el tema está en modo oscuro (la etiqueta <html> tiene la clase .dark)... */
   html.dark .logo-light-mode {
-    display: none; /* ...ocultamos la imagen para modo claro */
+    display: none; 
   }
 
   html.dark .logo-dark-mode {
-    display: block; /* ...y mostramos la imagen para modo oscuro */
+    display: block;
   }
 </style>
 
