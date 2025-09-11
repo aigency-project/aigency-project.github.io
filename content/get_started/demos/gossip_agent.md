@@ -94,8 +94,9 @@ git clone https://github.com/aigency-project/demo-gossip-agent
 ### Configure your environment variables in a .env file in the project root:
 Visit Google AI Studio to generate your Gemini API key, since this agent uses the gemini-2.0-flash model.
 
-```Bash
+```bash title=".env"
 GEMINI_API_KEY=your_gemini_api_key
+GOOGLE_GENAI_USE_VERTEXAI=FALSE
 ```
 {{% /steps %}}
 
