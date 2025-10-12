@@ -46,4 +46,10 @@ Ready for more? Dive into our advanced examples where multiple AI agents collabo
     subtitle="Agent and MCP network"
     icon="sun" >}}
 
+    {{< card
+    link="/get_started/demos/archivist_aigent/"
+    title="RAG tool"
+    subtitle="Aigent with local RAG support"
+    icon="sun" >}}
+
 {{< /cards >}}
