@@ -10,7 +10,7 @@ This resource defines the configuration for an AI model provider.
 ## Syntax
 ```yaml
 name: <string>
-endpoint: <string | null>
+api_base: <string | null>
 ```
 
 ## Properties
@@ -19,7 +19,7 @@ endpoint: <string | null>
   - Type: string
   - Required: True
 
-- **endpoint**
+- **api_base**
   - Description: Custom endpoint URL for the provider.
   - Type: string
   - Required: False
@@ -27,5 +27,5 @@ endpoint: <string | null>
 ## Example
 ```yaml
 name: openai
-endpoint: https://api.openai.com
+api_base: https://api.openai.com
 ```

@@ -31,5 +31,5 @@ provider: [ProviderConfig]
 name: gpt-4
 provider:
   name: openai
-  endpoint: https://api.openai.com
+  api_base: https://api.openai.com
 ```
