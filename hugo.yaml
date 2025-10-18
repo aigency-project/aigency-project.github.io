@@ -1,6 +1,13 @@
 # Hugo configuration file
 title: Aigency
 
+# Google Analytics
+googleAnalytics: "G-GZWCZ8ZJF3"  # Replace with your GA4 measurement ID
+
+services:
+  googleAnalytics:
+    id: G-GZWCZ8ZJF3
+
 # import hextra as module
 module:
   imports:
@@ -48,6 +55,10 @@ menu:
 #        icon: x-twitter
 
 params:
+  # Google Tag Manager (uncomment and add your GTM ID if using GTM instead of GA)
+  # gtm:
+  #   id: "GTM-XXXXXXX"
+  
   page:
     width: wide
   navbar:
