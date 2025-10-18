@@ -74,7 +74,6 @@ This agent serves as the specialized librarian, providing intelligent access to 
 
 ### System Diagram
 <image src="/images/archivist-agent_diagram.png" alt="Archivist Aigent System Diagram">
-
 ---
 ## How to Run
 
