@@ -11,17 +11,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.1.1] - xx-10-2025
+## [0.1.1] - 18-10-2025
 
 ### Added
 - Multi-provider model support (OpenAI, Anthropic, and more)
 - [Phoenix](https://phoenix.arize.com/) observability integration for enhanced monitoring
 - Simplified Python agent class architecture
-- Agent multi-modal support (text/audio/image)
+- Agent multi-modal support (text/audio/image/video)
 - Include advanced demo with a RAG example.
 
 ### Changed
-- Optimized agent processing performance for faster execution
 - Updated all dependencies to their latest stable versions
 
 ### Fixed
