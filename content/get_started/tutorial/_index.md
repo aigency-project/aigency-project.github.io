@@ -7,17 +7,23 @@ weight: 1
 
 This tutorial will guide you step-by-step through creating and launching your first Aigency agent. An agent is fundamentally composed of two files that work together:
 
-- agent_config.yaml: The configuration file that defines the personality, the AI model, and the capabilities (tools).
+- `agent_config.yaml`: The configuration file that defines the personality, the AI model, and the capabilities (tools).
 
-- main.py: The Python script that loads this configuration and starts the agent.
+- `main.py`: The Python script that loads this configuration and starts the agent.
 
 ## 0. Prerequisites
 
 - **Python**: Version 3.12 or higher.
-- **Model credentials**: A valid API key for the model provider you choose. Aigency supports any model as long as the appropriate API key is configured.
-- **Aigency**: Install the Aigency Python package in your environment.
+- **Model credentials**: A valid API key for the model provider you choose. Aigency supports any model as long as the appropriate API key is configured. 
 
-**Install Aigency**:
+**Model provider example (Gemini)**: If you plan to use Google's Gemini (e.g., `gemini-2.0-flash`), visit [Google AI Studio](https://aistudio.google.com/app/apikey) to generate your Gemini API key. Create a `.env` file in the project root and add:
+
+```bash title=".env"
+# Do not commit this file to version control
+GEMINI_API_KEY=your_gemini_api_key
+GOOGLE_GENAI_USE_VERTEXAI=FALSE
+```
+- **Aigency library**: Install the Aigency Python package in your environment.
 
 ```bash
 # Using pip
@@ -27,18 +33,13 @@ pip install aigency
 uv add aigency
 ```
 
-**Model provider example (Gemini)**: If you plan to use Google's Gemini (e.g., `gemini-2.0-flash`), visit [Google AI Studio](https://aistudio.google.com/app/apikey) to generate your Gemini API key. Create a `.env` file in the project root and add:
 
-```bash title=".env"
-# Do not commit this file to version control
-GEMINI_API_KEY=your_gemini_api_key
-GOOGLE_GENAI_USE_VERTEXAI=FALSE
-```
 
 ## 1. The Definition: Building agent_config.yaml
 
-The YAML file acts as the agent's "recipe", structuring all its logic and dependencies. It is composed of four main blocks, as defined in the Hextra::Agent::Config documentation.
-For our first demonstration agent, we will use the "Hello World Agent" example.
+The YAML file `agent_config.yaml` acts as the agent's "recipe", structuring all its logic and dependencies. It is composed of four main blocks, as defined in the [documentation](/docs/aigency/).
+
+For our first demonstration agent, we will create a "Hello World Agent" example.
 
 ### 1.1 Metadata Block: The Agent's Identity
 
@@ -78,12 +79,7 @@ metadata:
 
 This mandatory block defines how the agent connects to the world (URLs and data types it handles).
 For a detailed reference of the service configuration, consult the documentation: [Service](/docs/aigency/service/), [Capabilities](/docs/aigency/service/capabilities/), and [Interface](/docs/aigency/service/interface/).
-<table>
-  <thead>
-    <tr>
-      <th>Property</th>
-      <th>Description</th>
-    </tr>
+
   </thead>
   <tbody>
     <tr>
