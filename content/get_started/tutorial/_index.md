@@ -78,8 +78,10 @@ metadata:
 ### 1.2 Service Block: Connectivity
 
 This mandatory block defines how the agent connects to the world (URLs and data types it handles).
+
 For a detailed reference of the service configuration, consult the documentation: [Service](/docs/aigency/service/), [Capabilities](/docs/aigency/service/capabilities/), and [Interface](/docs/aigency/service/interface/).
 
+<table>
   </thead>
   <tbody>
     <tr>
@@ -123,6 +125,7 @@ This mandatory block contains the core AI logic.
 #### 1.3.1 Model Configuration and instruction (The System Prompt)
 
 The instruction property is the system prompt, which defines the agent's personality, role, and behavior rules. It is key to directing its behavior.
+
 For a detailed description of the agent schema and model options, see [Agent](/docs/aigency/agent/) and [Agent Model](/docs/aigency/agent/model/).
 
 <table>
@@ -164,6 +167,7 @@ agent:
 #### 1.3.2 Defining skills (The Intentions)
 
 Skills are the high-level user intentions that the agent must be able to recognize and handle. By defining examples, you help the model map user phrases to the correct skill.
+
 For guidance on authoring skills, see [Agent Skills](/docs/aigency/agent/skills/).
 
 <table>
@@ -212,12 +216,17 @@ For guidance on authoring skills, see [Agent Skills](/docs/aigency/agent/skills/
 
 #### 1.3.3 Integrating tools (The Action Functions)
 
-This capability allows an agent to call external functions or microservices during execution (for example, local Python functions or services connected via Model Context Protocol). To keep the “Hello World” tutorial focused and minimal, tools are not used here and this section is optional. When you are ready to extend your agent, define a `tools` block in your YAML and ensure the referenced modules or services are reachable. See the Demos and the main documentation for tool-enabled examples.
+This capability allows an agent to call external functions or microservices during execution (for example, local Python functions or services connected via Model Context Protocol). 
+
+To keep the “Hello World” tutorial focused and minimal, tools are not used here and this section is optional. When you are ready to extend your agent, define a `tools` block in your YAML and ensure the referenced modules or services are reachable. 
+
+See the Demos and the main documentation for tool-enabled examples.
 To learn how to enable and configure tools, see [Agent Tools](/docs/aigency/agent/tools/).
 
 #### 1.3.4 Remote Agents (Optional)
 
 Remote agents allow your agent to call other A2A agents over the network. This is optional and useful when composing capabilities across services. Declare remote agents under the `agent.remote_agents` list in your YAML.
+
 To configure communication with other agents, see [RemoteAgent](/docs/aigency/agent/remotes/).
 
 <table>
@@ -255,6 +264,7 @@ Note: Ensure the `host` and `port` are reachable from where your agent runs (loc
 #### 1.4 Observability Block: Monitoring and Tracing (Optional)
 
 This block is optional, but essential for monitoring and debugging agent behavior in production. Phoenix is currently the only supported observability tool.
+
 For monitoring and tracing options, see [Observability](/docs/aigency/observability/) and [Monitoring](/docs/aigency/observability/monitoring/).
 
 <table>
@@ -286,7 +296,7 @@ observability:
 
 ## 2. The Starting Point: The main.py Script
 
-Once the agent is fully defined in agent_config.yaml, we need a Python script to load it and bring it online. This is the purpose of main.py.
+Once the agent is fully defined in `agent_config.yaml`, we need a Python script to load it and bring it online. This is the purpose of `main.py`.
 
 ### 2.1 The Launcher Code
 
@@ -336,7 +346,7 @@ if __name__ == "__main__":
         logger.info("Application interrupted by user. Exiting...")
 ```
 
-Reference (optional): Full `main.py`
+Full `main.py`
 
 ```python
 """Main entry point for the reception agent."""
@@ -373,7 +383,7 @@ This single call is provided for simplicity: instead of writing custom bootstrap
 
 ## 3. Running the Agent
 
-With both files (agent_config.yaml and main.py) saved in your project directory, you can start your agent:
+With both files (`agent_config.yaml` and `main.py`) saved in your project directory, you can start your agent:
 - Make sure your Python environment is active.
 - Run the script from your terminal:
 
