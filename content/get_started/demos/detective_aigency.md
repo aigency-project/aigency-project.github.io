@@ -2,7 +2,7 @@
 title: Detective Aigency
 type: docs
 weight: 3
-next: /docs/aigency
+next: /get_started/demos/archivist_aigency
 prev: /get_started/demos
 ---
 

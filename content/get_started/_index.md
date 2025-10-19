@@ -5,7 +5,7 @@ toc: true
 weight: 0
 sidebar:
   open: true
-next: get_started/demos/
+next: get_started/tutorial/
 prev: about/
 ---
 
