@@ -1,5 +1,5 @@
 ---
-title: Tutorial, Creating Your First Agent with Aigency
+title: Creating Your First Agent
 type: docs
 weight: 1
 ---
@@ -259,7 +259,9 @@ remote_agents:
     port: 8080
 ```
 
-Note: Ensure the `host` and `port` are reachable from where your agent runs (local/dev, container, or cluster). See full details in `Aigency::Agent::RemoteAgent` docs at `/docs/aigency/agent/remotes/`.
+{{< callout type="important" icon="warning">}}
+**Note**: Ensure the `host` and `port` are reachable from where your agent runs (local/dev, container, or cluster). See full details in `Aigency::Agent::RemoteAgent` docs at `/docs/aigency/agent/remotes/`.
+{{< /callout >}}
 
 #### 1.4 Observability Block: Monitoring and Tracing (Optional)
 
@@ -307,7 +309,10 @@ Follow these steps to create `main.py`, then copy the code below:
 3. Create a new file named `main.py`.
 4. Paste the code below and save the file.
 
-Tip: The script resolves the path to `agent_config.yaml` relative to the file location. If you keep the YAML elsewhere, update `config_path` accordingly.
+Tip: 
+{{< callout icon="information-circle">}}
+**Tip**: The script resolves the path to `agent_config.yaml` relative to the file location. If you keep the YAML elsewhere, update `config_path` accordingly.
+{{< /callout >}}
 
 Build `main.py` incrementally with these short steps:
 
@@ -377,9 +382,15 @@ if __name__ == "__main__":
 
 ### 2.2 Key Explanation
 
-In this entry point, `open_aigency(config_path=...)` acts as the orchestrator. It reads and validates the YAML, builds the agent according to the `metadata`, `service`, and `agent` blocks, initializes the selected model, registers the declared tools (local functions and MCP microservices), and brings the service online with the configured interface. When the optional `observability` block is present (e.g., Phoenix), it enables monitoring hooks so you can trace requests and tool calls.
+In this entry point, `open_aigency(config_path=...)` acts as the orchestrator. 
 
-This single call is provided for simplicity: instead of writing custom bootstrap code for configuration parsing, dependency wiring, and server startup, you keep `main.py` minimal and declarative. It also makes upgrades safer—improvements in the Aigency runtime are adopted without changes to your application code.
+It reads and validates the YAML, builds the agent according to the `metadata`, `service`, and `agent` blocks, initializes the selected model, registers the declared tools (local functions and MCP microservices), and brings the service online with the configured interface. 
+
+When the optional `observability` block is present (e.g., Phoenix), it enables monitoring hooks so you can trace requests and tool calls.
+
+This single call is provided for simplicity: instead of writing custom bootstrap code for configuration parsing, dependency wiring, and server startup, you keep `main.py` minimal and declarative. 
+
+It also makes upgrades safer—improvements in the Aigency runtime are adopted without changes to your application code.
 
 ## 3. Running the Agent
 
@@ -391,7 +402,9 @@ With both files (`agent_config.yaml` and `main.py`) saved in your project direct
 python main.py
 ```
 
-The agent will start and be ready to receive requests at the URL you defined in the service block. Congratulations, you've created your first Aigency agent! 🎉
+The agent will start and be ready to receive requests at the URL you defined in the service block. 
+
+**Congratulations, you've created your first AI Agent using Aigency! 🎉**
 
 ## 4. Consuming your agent
 
@@ -439,7 +452,7 @@ cd backend
 uv run app.py
 ```
 
-Open http://127.0.0.1:5001 in your browser.
+Open [http://127.0.0.1:5001](http://127.0.0.1:5001) in your browser.
 
 3) Connect the Inspector to your agent
 
@@ -456,6 +469,9 @@ Try the example skills defined in your YAML:
 ```text
 Hello, how are you?
 ```
+
+
+## 5 What's next?
 
 <br>
 
